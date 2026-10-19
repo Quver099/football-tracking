@@ -1,0 +1,23 @@
+# data & large artefacts (never commit video or weights)
+data/raw/*
+data/frames/*
+data/datasets/
+models/*
+outputs/*
+!**/.gitkeep
+*.pt
+*.mp4
+*.avi
+runs/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# secrets
+kaggle.json
+.env

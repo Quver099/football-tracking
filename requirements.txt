@@ -1,0 +1,14 @@
+ultralytics>=8.3.0
+supervision>=0.25.0
+opencv-python>=4.9
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+jupyter
+roboflow          # dataset download for notebook 02
+gdown             # sample clip download
+pyyaml
+# later milestones
+# streamlit
